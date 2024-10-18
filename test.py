@@ -13,11 +13,7 @@ api_link = 'https://api.openweathermap.org/data/2.5/weather?q={}&appid={}'.forma
 # Fazendo a requisição
 r = requests.get(api_link)
 
-
-
 dados = r.json()
-print(dados)
-
 
 pais_codigo = dados['sys']['country']
 
@@ -35,7 +31,6 @@ pressao = dados['main']['pressure']
 umidade = dados['main']['humidity']
 velocidade = dados['wind']['speed']
 descricao = dados['weather'][0]['description']
-
 
 
 def pais_para_continente(i):
