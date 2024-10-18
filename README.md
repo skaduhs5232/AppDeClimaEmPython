@@ -16,4 +16,6 @@ Este é um aplicativo simples de clima, escrito em Python, que utiliza a API do 
 1. Crie uma conta gratuita no [OpenWeatherMap](https://openweathermap.org).
 2. Vá até seu perfil e acesse a seção **API Keys**.
 3. Copie sua chave de API e cole no campo `chave` do arquivo Python.
+
+
  ![image](https://github.com/user-attachments/assets/f478d096-61d0-48b2-b51b-9f5faeafa588)
